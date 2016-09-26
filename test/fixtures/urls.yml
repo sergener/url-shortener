@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  fullurl: MyString
+  string: MyString
+  shorturl: MyString
+  string: MyString
+  hits: MyString
+  integer: MyString
+
+two:
+  fullurl: MyString
+  string: MyString
+  shorturl: MyString
+  string: MyString
+  hits: MyString
+  integer: MyString
