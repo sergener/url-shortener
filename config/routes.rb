@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+
+  root 'urls#new'
+  resources :urls, only: [:new, :create]
+  get '/:short_url', to: "url#show", as: "redirect_link"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
